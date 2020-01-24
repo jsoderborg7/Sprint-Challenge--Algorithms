@@ -103,7 +103,7 @@ class SortingRobot:
             self.move_right()
         # check the item
             if self.compare_item() == 1:
-        #if swapped, continue on
+        #if it needs to be swapped, continue on
                 self.swap_item()
                 self.move_left()
                 self.swap_item()
